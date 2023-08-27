@@ -2,6 +2,10 @@
 <div class="d:flex flex:col">
     {{- partial "prose.html" . -}}
 
+    <p>
+      This is an archive of some of <a href="https://kyleharrington.com">Kyle Harrington's</a> web presence. At the moment it just archives <a href="https://mastodon.social/@kisharrington">kharrington@mastodon.social</a>.
+    </p>
+    
     <h2 class="my:1em">Posts</h2>
 
     {{- range where site.RegularPages "Type" "in" site.Params.mainSections -}}
